@@ -24,6 +24,7 @@ h1 {
   background-size: auto 600px;
   background-position: top center;
   background-attachment: fixed;
+  overflow: hidden;
 }
 
 .logo {
@@ -35,4 +36,28 @@ h1 {
   position: absolute;
   top: 50%;
   margin-top: -50px;
+}
+
+.fore-bird {
+  width: 960px;
+  height: 733px;
+  /*background-color: rgba(203, 141, 185, 0.4);*/
+  background-image: url(../images/fore-bird.png);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  position: absolute;
+  left: 50%;
+  margin-left: -480px;
+  top: 380px;
+}
+
+.back-bird {
+  width: 960px;
+  height: 298px;
+  background-image: url(../images/back-bird.png);
+  background-repeat: no-repeat;
+  background-position: top left;
+  position: absolute;
+  left: 50%;
+  margin-left: -480px;
 }
