@@ -14,4 +14,12 @@ $(window).scroll(function(){
     'transform' : 'translate(0px, -'+ wScroll /40  +'%)'
   });
 
+  if(wScroll > $('.clothes-pics').offset().top){
+
+    $('.clothes-pics figure').each(function(){
+
+      $('.clothes-pics figure').addClass('is-showing');
+    });
+  }
+
 });
