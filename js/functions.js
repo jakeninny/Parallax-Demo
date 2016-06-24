@@ -29,7 +29,7 @@ $(window).scroll(function(){
 
     var opacity = (wScroll - $('.large-window').offset().top + 400) / (wScroll / 5);
 
-    $('.window-tint').css({'opacity': opacity})
+    $('.window-tint').css({'opacity': opacity});
   }
 
 });

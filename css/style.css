@@ -127,6 +127,7 @@ figure {
   margin-top: 100px;
   border-radius: 50%;
   position: relative;
+  margin-bottom: 100px;
 }
 
 .large-window .window-tint {
@@ -179,3 +180,5 @@ figure {
   background-color: white;
   color: black;
 }
+
+/*Posts*/
